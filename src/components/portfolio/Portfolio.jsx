@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/messenger.jpeg";
+import IMG1 from "../../assets/messengerclone.png";
 import IMG2 from "../../assets/todolist.png";
 import IMG3 from "../../assets/tipcalc.png";
 import IMG4 from "../../assets/houseparty.png";
@@ -14,7 +14,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Messenger Clone | NextJS | TailwindCSS | Prisma",
+    title: "Real-Time Messaging Application | NextJS | TailwindCSS | Prisma",
     github: "https://github.com/divyasrinaraharisetti/messenger-clone",
   
   },
