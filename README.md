@@ -1,6 +1,6 @@
 # Portfolio Website 
 
-[Visit my website:([https://portfolio-master-green-beta.vercel.app](https://divyasri-portfolio-master-green-beta.vercel.app/))
+[Visit my website:[https://divyasri-portfolio-master-green-beta.vercel.app/](https://portfolio-master-git-main-divyasrinaraharisetti.vercel.app/)
 
 ## Built With
 
