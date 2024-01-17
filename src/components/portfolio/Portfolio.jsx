@@ -8,19 +8,21 @@ import IMG5 from "../../assets/portfolio.png";
 import IMG6 from "../../assets/mvrecsyst.png";
 import IMG7 from "../../assets/campuscrib.webp";
 import IMG8 from "../../assets/cartapp.png";
+import IMG9 from "../../assets/img2pdf.png"
+import img10 from "../../assets/awsdeploy.png"
 
 const data = [
   
-  // {
-  //   id: 1,
-  //   image: IMG1,
-  //   title: "WordPress Application Deployment on AWS",
-  //   github: "https://github.com/divyasrinaraharisetti/"
-  // },
+  {
+    id: 1,
+    image: img10,
+    title: "WordPress Application Deployment on AWS",
+    github: "https://github.com/divyasrinaraharisetti/"
+  },
   
   {
     id: 2,
-    image: IMG8,
+    image: IMG9,
     title: "Image to PDF Converter | JavaScript | NodeJS",
     github: "https://github.com/divyasrinaraharisetti/Image2Pdf"
   },
