@@ -1,10 +1,5 @@
 import React from "react";
 import "./testimonials.css";
-// import AVTR1 from "../../assets/bastian.jpg";
-// import AVTR2 from "../../assets/marie.jpg";
-// import AVTR3 from "../../assets/ksenia.jpg";
-// import AVTR4 from "../../assets/iselin.jpg";
-// import AVTR5 from "../../assets/balraj.jpg";
 
 // import required modules
 import { Pagination } from "swiper";
@@ -30,12 +25,6 @@ const data = [
     date: "May 2021 - Aug 2021",
     description: "I streamlined dataset analysis to expedite high-value aerospace orders, boosting our performance maturity by 15% and automating anomaly detection. I analyzed aerospace datasets, uncovering an average of 55 defects per model weekly. I processed data for daily testing and enhanced visualization methods for weekly defect reports to our team."
   }
-  // {
-  //   avatar: AVTR2,
-  //   name: "Marie",
-  //   review:
-  //     "We worked closely in a team over a periode of four months, and I couldn't have asked for a better partner! Ademir is extremely dedicated, and always askes the right questions in order to be on the right track.",
-  // },
 ];
 
 // https://swiperjs.com/demos#pagination-dynamic
