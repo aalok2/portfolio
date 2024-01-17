@@ -4,7 +4,7 @@ import React from "react";
 const CTA = () => {
   const handleDownloadClick = () => {
     // Replace the URL with the actual link to your PDF
-    const cvUrl = "https://drive.google.com/file/d/1DlS2-X8CNhMS8AmxaICkL-Ujl_6ufj5-/view";
+    const cvUrl = "https://drive.google.com/file/d/1LosW2kdpcBX5fJYD5FHD7SdpSiZKUvm8/view";
     //https://drive.google.com/file/d/1DlS2-X8CNhMS8AmxaICkL-Ujl_6ufj5-/view
     // Open the CV link in a new tab
     window.open(cvUrl, '_blank');
