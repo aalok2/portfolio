@@ -1,32 +1,35 @@
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
+  text-align: justify;
   gap: 15%;
 }
 
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
+  border-radius: 5rem;
+  /* background: linear-gradient(
+    60deg,
     transparent,
     var(--color-primary),
     transparent
-  );
+  ); */
+  padding-top: 100px;
   display: grid;
   place-items: center;
 }
 
 .about__me-image {
-  border-radius: 2rem;
+  border-radius: 4rem;
   overflow: hidden;
-  transform: rotate(10deg);
+  /* transform: rotate(1deg); */
   transition: var(--transition);
 }
 
 .about__me-image:hover {
-  transform: rotate(0);
+  /* transform: rotate(0); */
+  transform: scale(1.2);
 }
 
 .about__cards {

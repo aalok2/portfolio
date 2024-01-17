@@ -13,7 +13,7 @@
 
 /* CSS Variables */
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #1c1c32;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -41,7 +41,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
-  line-height: 1.7;
+  line-height: 1.6;
   background-image: url("./assets/bg-texture.png");
 }
 
@@ -54,14 +54,17 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   font-weight: 500;
 }
 
-h1 {
-  font-size: 2.5rem;
+h5 {
+  font-weight: 350;
 }
+
+/* h1 {
+  font-size: 2.5rem;
+} */
 
 section {
   margin-top: 7rem;

@@ -4,6 +4,7 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
+import { AiOutlineShopping } from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
@@ -34,6 +35,13 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
+        href="#testimonials"
+        onClick={() => setActiveNav("#testimonials")}
+        className={activeNav === "#testimonials" ? "active" : ""}
+      >
+        <AiOutlineShopping />
+      </a>
+      <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
@@ -50,5 +58,6 @@ const Nav = () => {
     </nav>
   );
 };
+// https://react-icons.github.io/react-icons/icons/ai/
 
 export default Nav;

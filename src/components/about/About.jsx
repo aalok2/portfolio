@@ -16,25 +16,30 @@ const About = () => {
             <img src={profile_picture} alt="About Divyasri" />
           </div>
         </div>
-        <div className="about__content text-gray-400 text-justify py-4 max-w-md">
+        <div className="about__content text-gray-100 text-justify py-2 max-w-md">
           <p>
-            I'm Divyasri a versatile professional with a passion for both full stack development and Data Analysis.
-            With a strong foundation in these two distinct yet interconnected fields, 
-            I strive to bridge the gap between data-driven insights and functional applications.
+            Hi, I'm Divyasri Naraharisetti, currently pursuing a Graduate Degree in Computer Science at the University of Florida. 
+            I am a tech enthusiast with a passion for Full Stack Application Development and a Novice Cloud Developer. 
+            {/* With a strong foundation in these two distinct yet interconnected fields,  */}
+            {/* I strive to bridge the gap between data-driven insights and functional applications. */}
           </p>
           <p>
-            In the world of full stack development, I bring to the table a comprehensive skill set that encompasses both frontend and backend technologies. 
-            I take pride in crafting user-friendly interfaces that prioritize seamless experiences, leveraging React, JavaScript. 
-            On the backend, I excel in designing efficient databases and developing server-side logic using languages like Python, and Node.js.
+            In the world of full stack development, I bring to the table a comprehensive skill set that encompasses both frontend and backend technologies. I take pride in crafting user-friendly interfaces that prioritize seamless experiences, leveraging React, JavaScript, Angular, and Java. 
+            On the backend, I excel in designing efficient databases and developing server-side logic using languages like Django(Python), Node.js, Kubernetes, and Docker.
             This combination of skills allows me to create holistic and responsive web applications that deliver value to users.
+            {/* My expertise spans various programming languages and technologies, including Python, Java, NodeJS, Angular, React,, and Django. */}
           </p>
           <p>
+          I'm actively seeking roles in Software Development, covering a spectrum from SDE and Full Stack to Frontend, Backend, and DevOps.
+          Starting in June 2024, I'm excited to take on new challenges and contribute to innovative projects.
+          </p>
+          {/* <p>
             My journey into data analysis has provided me with a deep appreciation for the power of data in driving informed decisions.
             I am adept at collecting, cleaning, and visualizing data, using tools like Python, R, and SQL.
-          </p>
-          <a href="#contact" className="btn btn-primary">
+          </p> */}
+          {/* <a href="#contact" className="btn btn-primary">
             Let's Talk
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

@@ -11,8 +11,22 @@ import IMG8 from "../../assets/cartapp.png";
 
 const data = [
   
+  // {
+  //   id: 1,
+  //   image: IMG1,
+  //   title: "WordPress Application Deployment on AWS",
+  //   github: "https://github.com/divyasrinaraharisetti/"
+  // },
+  
   {
-    id: 1,
+    id: 2,
+    image: IMG8,
+    title: "Image to PDF Converter | JavaScript | NodeJS",
+    github: "https://github.com/divyasrinaraharisetti/Image2Pdf"
+  },
+  
+  {
+    id: 3,
     image: IMG1,
     title: "Real-Time Messaging Application | NextJS | TailwindCSS | Prisma",
     github: "https://github.com/divyasrinaraharisetti/messenger-clone",
@@ -20,50 +34,52 @@ const data = [
   },
   
   {
-    id: 2,
-    image: IMG2,
-    title: "ToDo-List | MongoDB | Express | ReactJS | NodeJS ",
-    github: "https://github.com/divyasrinaraharisetti/To-do-List",
-  },
-  
-  {
-    id: 3,
-    image: IMG3,
-    title: "Tip Calculator | JavaScript | HTML | CSS",
-    github: "https://github.com/divyasrinaraharisetti/Tip-Calculator",
-
-  },
-  {
     id: 4,
     image: IMG4,
     title: "House Party Music Controller | React | Django",
     github: "https://github.com/divyasrinaraharisetti/HouseParty-Music-Controller",
     
   },
+
   {
     id: 5,
-    image: IMG5,
-    title: "JavaScript | HTML | CSS Portfolio",
-    github: "",
-    
+    image: IMG3,
+    title: "Tip Calculator | JavaScript | HTML | CSS",
+    github: "https://github.com/divyasrinaraharisetti/Tip-Calculator",
+
   },
+ 
   {
     id: 6,
+    image: IMG2,
+    title: "ToDo-List | MongoDB | Express | ReactJS | NodeJS ",
+    github: "https://github.com/divyasrinaraharisetti/To-do-List",
+  },
+
+  {
+    id: 7,
     image: IMG6,
     title: "Movie Recommendation System | Python | JavaScript | Flask",
     github: "https://github.com/divyasrinaraharisetti/Movie-Recommendation-System",
   },
   {
-    id: 7,
+    id: 8,
     image: IMG7,
     title: "Campus Crib | JavaScript | React | Tailwind ",
     github: "https://github.com/divyasrinaraharisetti/CampusCrib",
   },
   {
-    id: 7,
+    id: 9,
     image: IMG8,
     title: "Cart App | JavaScript | React | CSS ",
     github: "https://github.com/divyasrinaraharisetti/Cart-App",
+  },
+  {
+    id: 10,
+    image: IMG5,
+    title: "JavaScript | HTML | CSS Portfolio",
+    github: "https://github.com/divyasrinaraharisetti/portfolio-master",
+    
   },
 
 ];
@@ -71,8 +87,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>PROJECT WORK</h5>
+      <h2>My Recent Works</h2>
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github}) => {
           return (

@@ -1,10 +1,10 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/bastian.jpg";
-import AVTR2 from "../../assets/marie.jpg";
-import AVTR3 from "../../assets/ksenia.jpg";
-import AVTR4 from "../../assets/iselin.jpg";
-import AVTR5 from "../../assets/balraj.jpg";
+// import AVTR1 from "../../assets/bastian.jpg";
+// import AVTR2 from "../../assets/marie.jpg";
+// import AVTR3 from "../../assets/ksenia.jpg";
+// import AVTR4 from "../../assets/iselin.jpg";
+// import AVTR5 from "../../assets/balraj.jpg";
 
 // import required modules
 import { Pagination } from "swiper";
@@ -15,38 +15,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 const data = [
   {
-    avatar: AVTR1,
-    name: "Bastian",
-    review:
-      "Ademir comes up with ideas easily, and his ability to question the status quo is impressive. In our daily work, he drives our team not only with constant contribution but also with his visionary mind.",
+    title: "Web Development and Design Intern",
+    company: "Sails Software Solutions",
+    date: "January 2022 - June 2022",
+    description: "I constructed a robust full-stack application by building a RESTful API using Django's MVT framework. I effectively managed over 10 endpoints, ensuring seamless communication between the frontend and backend. Additionally, I designed a responsive user interface in Angular to elevate the overall user experience. My contributions extended to website redesigns aimed at enhancing navigation and improving visual aesthetics."
   },
   {
-    avatar: AVTR2,
-    name: "Marie",
-    review:
-      "We worked closely in a team over a periode of four months, and I couldn't have asked for a better partner! Ademir is extremely dedicated, and always askes the right questions in order to be on the right track.",
-  },
-  {
-    avatar: AVTR3,
-    name: "Ksenia",
-    review:
-      "I had the pleasure of working with Ademir on an extensive project and Ademir is very tidy, structured and keen to find good solutions for problems. For me, he has been a good partner and I have benefited a lot from discussing with him.",
-  },
-  {
-    avatar: AVTR4,
-    name: "Iselin",
-    review:
-      "I worked with Ademir on a challenging trend analysis project. I would describe him as solution-oriented and adaptable. Last but not least, he is creative, good at design, and a great collaborator!",
-  },
-  {
-    avatar: AVTR5,
-    name: "Balraj",
-    review:
-      "I had the pleasure of working with Ademir on a very challenging project! He is good at finding simple and creative solutions to complex challenges. He is also very helpful, motivated and has great work capacity.",
-  },
+    title: "Data Analysis Intern",
+    company: "QUEST Global Engineering Pvt. Ltd.",
+    date: "May 2021 - Aug 2021",
+    description: "I streamlined dataset analysis to expedite high-value aerospace orders, boosting our performance maturity by 15% and automating anomaly detection. I analyzed aerospace datasets, uncovering an average of 55 defects per model weekly. I processed data for daily testing and enhanced visualization methods for weekly defect reports to our team."
+  }
+  // {
+  //   avatar: AVTR2,
+  //   name: "Marie",
+  //   review:
+  //     "We worked closely in a team over a periode of four months, and I couldn't have asked for a better partner! Ademir is extremely dedicated, and always askes the right questions in order to be on the right track.",
+  // },
 ];
 
 // https://swiperjs.com/demos#pagination-dynamic
@@ -54,24 +43,25 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Reviews from coworkers</h5>
-      <h2>Testimonials</h2>
+      <h5>Previous Experience</h5>
+      <h2>EXPERIENCE</h2>
       <Swiper
         className="container testiomonials__container"
         // install Swiper modules
         modules={[Pagination]}
-        spaceBetween={40}
+        navigation
+        spaceBetween={50}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ title, company, date, description }, index) => {
           return (
             <SwiperSlide key={index} className="testimonial">
-              <div className="coworker-avatar">
-                <img src={avatar} alt="Coworker" />
-              </div>
-              <h5 className="coworker__name">{name}</h5>
-              <small className="coworker__review">{review}</small>
+              <h3 className="coworker__name">{title}</h3>
+              <h4 className="coworker__name">{company}</h4>
+              <h5 className="coworker__name">{date}</h5>
+              <small className="coworker__review">{description}</small>
             </SwiperSlide>
           );
         })}
