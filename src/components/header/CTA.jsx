@@ -4,9 +4,9 @@ import React from "react";
 const CTA = () => {
   const handleDownloadClick = () => {
     // Replace the URL with the actual link to your PDF
-    const cvUrl = "https://uflorida-my.sharepoint.com/:b:/g/personal/d_naraharisetti_ufl_edu/EQXq8wucqEtElk-2mfz3lQQBSVmhRII1037L_Hwn6fK8Tw?e=W5bCKH";
+    const cvUrl = "https://uflorida-my.sharepoint.com/:b:/g/personal/d_naraharisetti_ufl_edu/EbEdlAdyNQlIvdA2nQvOIbgB9sk0QmXpuNrUj4E2ElkiIg?e=CneCIV";
     //https://drive.google.com/file/d/1DlS2-X8CNhMS8AmxaICkL-Ujl_6ufj5-/view
-    // https://uflorida-my.sharepoint.com/:b:/g/personal/d_naraharisetti_ufl_edu/EQXq8wucqEtElk-2mfz3lQQBSVmhRII1037L_Hwn6fK8Tw?e=W5bCKH
+    // https://uflorida-my.sharepoint.com/:b:/g/personal/d_naraharisetti_ufl_edu/EbEdlAdyNQlIvdA2nQvOIbgB9sk0QmXpuNrUj4E2ElkiIg?e=CneCIV
     // Open the CV link in a new tab
     window.open(cvUrl, '_blank');
   };
