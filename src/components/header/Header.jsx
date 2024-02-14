@@ -2,7 +2,8 @@ import React from "react";
 import ReactTyped from "react-typed";
 import "./header.css";
 import CTA from "./CTA";
-import header_picture from "../../assets/header-picture2.png";
+// import header_picture from "../../assets/header-picture2.png";
+import header_picture from "../../assets/headerPictureMain.jpg";
 import HeaderSocials from "./HeaderSocials";
 
 const header = () => {
