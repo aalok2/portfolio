@@ -11,7 +11,7 @@ const header = () => {
     <header>
       <div className="container header__container">
         <h2>Hello I'm </h2>
-        <h1>Divyasri Naraharisetti</h1>
+        <h1>Aalok Bhairraju</h1>
         <h2> {" "} 
         <ReactTyped
           strings={["Full Stack Developer", "Software Developer"]}
@@ -23,8 +23,8 @@ const header = () => {
         </h2>
         <CTA />
         <HeaderSocials />
-        <div className="divyasri">
-          <img className='divyasri-picture' src={header_picture} alt="divyasrinaraharisetti" />
+        <div className="aalok">
+          <img className='aalok-picture' src={header_picture} alt="divyasrinaraharisetti" />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down

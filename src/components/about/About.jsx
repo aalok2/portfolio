@@ -13,25 +13,27 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={profile_picture} alt="About Divyasri" />
+            <img src={profile_picture} alt="About Aalok" />
           </div>
         </div>
         <div className="about__content text-gray-100 text-justify py-2 max-w-md">
           <p>
-            Hi, I'm Divyasri Naraharisetti, currently pursuing a Graduate Degree in Computer Science at the University of Florida. 
-            I am a tech enthusiast with a passion for Full Stack Application Development and a Novice Cloud Developer. 
+            Hi, I'm Aalok Bhairraju, currently working as a Software Developer at Zenadmin
+            I am a tech enthusiast with a passion for Full Stack Application Development and use cases of AI. 
             {/* With a strong foundation in these two distinct yet interconnected fields,  */}
             {/* I strive to bridge the gap between data-driven insights and functional applications. */}
           </p>
           <p>
-            In the world of full stack development, I bring to the table a comprehensive skill set that encompasses both frontend and backend technologies. I take pride in crafting user-friendly interfaces that prioritize seamless experiences, leveraging React, JavaScript, Angular, and Java. 
-            On the backend, I excel in designing efficient databases and developing server-side logic using languages like Django(Python), Node.js, Kubernetes, and Docker.
-            This combination of skills allows me to create holistic and responsive web applications that deliver value to users.
+           I am  proactive Full Stack Developer skilled in delivering efficient, scalable solutions and committed
+           to high-quality outcomes , optimizing performance and ensuring code quality through best
+           practices like TDD. Strong collaborator with a keen eye for design and user experience, committed
+          to delivering impactful solutions in fast-paced environments. Familiar with cloud deployment
+          and modern API architectures, driving innovation in product development..
             {/* My expertise spans various programming languages and technologies, including Python, Java, NodeJS, Angular, React,, and Django. */}
           </p>
           <p>
-          I'm actively seeking roles in Software Development, covering a spectrum from SDE and Full Stack to Frontend, Backend, and DevOps.
-          Starting in June 2024, I'm excited to take on new challenges and contribute to innovative projects.
+          I'm actively seeking roles in Software Development, covering a spectrum from SDE and Full Stack, Backend.
+          I'm excited to take on new challenges and contribute to innovative projects.
           </p>
           {/* <p>
             My journey into data analysis has provided me with a deep appreciation for the power of data in driving informed decisions.

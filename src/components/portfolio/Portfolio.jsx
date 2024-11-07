@@ -1,89 +1,50 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/messengerclone.png";
-import IMG2 from "../../assets/todolist.png";
 import IMG3 from "../../assets/tipcalc.png";
 import IMG4 from "../../assets/houseparty.png";
-import IMG5 from "../../assets/portfolio.png";
-import IMG6 from "../../assets/mvrecsyst.png";
-import IMG7 from "../../assets/campuscrib.webp";
-import IMG8 from "../../assets/cartapp.png";
-import IMG9 from "../../assets/img2pdf.png"
-import img10 from "../../assets/awsdeploy.png"
+import IMG9 from "../../assets/slotmachine.png"
+import img10 from "../../assets/most_played_game.png"
 
 const data = [
   
   {
     id: 1,
-    image: img10,
-    title: "WordPress Application Deployment on AWS",
-    github: "https://github.com/divyasrinaraharisetti/"
+    // image: img10,
+    title: "Most Popular Game In a Region",
+    github: "https://github.com/aalok2/most-popular-game-type"
   },
   
   {
     id: 2,
-    image: IMG9,
-    title: "Image to PDF Converter | JavaScript | NodeJS",
-    github: "https://github.com/divyasrinaraharisetti/Image2Pdf"
+    // image: IMG9,
+    title: "Slot Machine",
+    github: "https://github.com/aalok2/slot-machine"
   },
   
   {
     id: 3,
-    image: IMG1,
-    title: "Real-Time Messaging Application | NextJS | TailwindCSS | Prisma",
-    github: "https://github.com/divyasrinaraharisetti/messenger-clone",
+    // image: IMG1,
+    title: "Climate Change Predictor",
+    github: "https://github.com/aalok2/climate-change",
   
   },
   
   {
     id: 4,
-    image: IMG4,
-    title: "House Party Music Controller | React | Django",
-    github: "https://github.com/divyasrinaraharisetti/HouseParty-Music-Controller",
+    // image: IMG4,
+    title: "Tab url Extractor - Chrome Extension",
+    github: "https://github.com/aalok2/tab-url-extractior",
     
   },
 
   {
     id: 5,
-    image: IMG3,
-    title: "Tip Calculator | JavaScript | HTML | CSS",
-    github: "https://github.com/divyasrinaraharisetti/Tip-Calculator",
+    // image: IMG3,
+    title: "E-commerce Backend Application",
+    github: "https://github.com/aalok2/E-commerce-Application",
 
   },
- 
-  {
-    id: 6,
-    image: IMG2,
-    title: "ToDo-List | MongoDB | Express | ReactJS | NodeJS ",
-    github: "https://github.com/divyasrinaraharisetti/To-do-List",
-  },
-
-  {
-    id: 7,
-    image: IMG6,
-    title: "Movie Recommendation System | Python | JavaScript | Flask",
-    github: "https://github.com/divyasrinaraharisetti/Movie-Recommendation-System",
-  },
-  {
-    id: 8,
-    image: IMG7,
-    title: "Campus Crib | JavaScript | React | Tailwind ",
-    github: "https://github.com/divyasrinaraharisetti/CampusCrib",
-  },
-  {
-    id: 9,
-    image: IMG8,
-    title: "Cart App | JavaScript | React | CSS ",
-    github: "https://github.com/divyasrinaraharisetti/Cart-App",
-  },
-  {
-    id: 10,
-    image: IMG5,
-    title: "JavaScript | HTML | CSS Portfolio",
-    github: "https://github.com/divyasrinaraharisetti/portfolio-master",
-    
-  },
-
 ];
 
 const Portfolio = () => {
@@ -95,9 +56,9 @@ const Portfolio = () => {
         {data.map(({ id, image, title, github}) => {
           return (
             <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
+              {/* <div className="portfolio__item-image">
                 <img src={image} alt={title} />
-              </div>
+              </div> */}
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className="btn">

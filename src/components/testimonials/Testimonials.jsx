@@ -14,16 +14,22 @@ import "swiper/css/autoplay";
 
 const data = [
   {
-    title: "Web Development and Design Intern",
-    company: "Sails Software Solutions",
-    date: "January 2022 - June 2022",
-    description: "I constructed a robust full-stack application by building a RESTful API using Django's MVT framework. I effectively managed over 10 endpoints, ensuring seamless communication between the frontend and backend. Additionally, I designed a responsive user interface in Angular to elevate the overall user experience. My contributions extended to website redesigns aimed at enhancing navigation and improving visual aesthetics."
+    title: "SDE-1",
+    company: "ZenAdmin",
+    date: "Feb 2023 - Present",
+    description: "Pioneered the development of Access and SaaS Management Integrations, implementing automated workflows that slashed IT/HR processing department time from one hour tomilliseconds, dramatically boosting operational efficiency. Optimized costs and ensured system availability by leveraging Lambda Engineered critical integrations such as Mobile Device Management (MDM) and Human Resources Information Systems (HRIS) to automate device and personnel onboarding management . This streamlined process enabled the seamless onboarding of 25 clients. Created a scalable, event-driven notification and email service based on asynchronous messaging for end-to-end notifications. Architected and implemented RESTful APIs using best practices for various modules, and structured optimized NoSQL and SQL database schemas. Developed a Chrome Extension using React and TypeScript to monitor 500+ SaaS applications, delivering insights to 20+ clients for efficient SaaS discovery. Ensured data privacy and security throughout."
   },
   {
-    title: "Data Analysis Intern",
-    company: "QUEST Global Engineering Pvt. Ltd.",
-    date: "May 2021 - Aug 2021",
-    description: "I streamlined dataset analysis to expedite high-value aerospace orders, boosting our performance maturity by 15% and automating anomaly detection. I analyzed aerospace datasets, uncovering an average of 55 defects per model weekly. I processed data for daily testing and enhanced visualization methods for weekly defect reports to our team."
+    title: "SDE-1",
+    company: "Medibuddy",
+    date: "June 2022 - Feb 2023",
+    description: "Developed the Medibuddy Gold homepage using Server-Side Rendering, achieving a 9% increase in renewals within a quarter. Implemented a cohort-based architecture for patients across various modules, providing valuable insights for feature experimentation to the product team. Contributed to pricing strategies and discount offers. Enhanced the Lab-to-Consultation module's efficiency from 80% to 99.9% by adopting an event-based architecture. Led the implementation of security protocols for microservices, focusing on request authorization and validation, while improving data protection by migrating sensitive information to AWS Secret Manager."
+  },
+    {
+    title: "SDE Intern",
+    company: "Zluri",
+    date: "Jult 2021 - May 2022",
+    description: "Developed connectors for over 75 integrations, including Notion, Zoho, and GitHub, facilitating seamless data collection and analysis for organizational insights on usage and payments. Created automated workflows using n8n for employee onboarding and offboarding, significantly streamlining user access management by efficiently granting, revoking, and managing user permissions. This enhanced operational efficiency and improved the overall onboarding experience for employees."
   }
 ];
 

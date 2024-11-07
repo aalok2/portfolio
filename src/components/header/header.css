@@ -37,7 +37,7 @@ header {
 }
 
 /* Divyasri */
-.divyasri {
+.aalok {
   /* background: linear-gradient(var(--color-), transparent); */
   width: 25rem;
   height: 25rem;
@@ -48,7 +48,7 @@ header {
   /* border-radius: 3rem; */
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-.divyasri-picture{
+.aalok-picture{
   border-radius: 2rem;
   position: relative;
   
